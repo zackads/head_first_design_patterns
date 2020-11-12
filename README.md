@@ -7,8 +7,8 @@ Programming along with [Head First Design Patterns](https://www.amazon.co.uk/Hea
 Each item below represents a chapter in HFDP. Some chapters cover two patterns.
 
 - [x] Strategy
-- [ ] Observer
-- [ ] Decorator
+- [x] Observer
+- [x] Decorator
 - [ ] Factory
 - [ ] Singleton
 - [ ] Command
