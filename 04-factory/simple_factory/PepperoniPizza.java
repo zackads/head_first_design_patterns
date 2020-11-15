@@ -3,15 +3,15 @@ public class PepperoniPizza extends Pizza {
         System.out.println("Preparing Pepperoni pizza...");
     }
 
-    public void prepare() {
+    public void bake() {
         System.out.println("Putting Pepperoni pizza in oven to bake...");
     }
 
-    public void prepare() {
+    public void cut() {
         System.out.println("Pulling out of the oven and cutting the Pepperoni pizza...");
     }
 
-    public void prepare() {
+    public void box() {
         System.out.println("Putting the Pepperoni pizza in a box...");
     }
 } 

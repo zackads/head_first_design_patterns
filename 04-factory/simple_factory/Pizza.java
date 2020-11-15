@@ -1,6 +1,6 @@
 public abstract class Pizza {
-    public void prepare();
-    public void bake();
-    public void cut();
-    public void box();
+    public abstract void prepare();
+    public abstract void bake();
+    public abstract void cut();
+    public abstract void box();
 }
