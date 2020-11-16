@@ -9,7 +9,7 @@ public class ChocolateBoiler {
         boiled = false; 
     }
 
-    public static ChocolateBoiler getInstance() {  // Static method to get singleton instance
+    public static synchronized ChocolateBoiler getInstance() {  // Static method to get singleton instance.  Synchronized to avoid threading issues.
         if (uniqueInstance == null) {
             uniqueInstance = new ChocolateBoiler();
         }
