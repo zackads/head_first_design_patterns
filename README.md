@@ -13,8 +13,8 @@ Each item below represents a chapter in HFDP. Some chapters cover two patterns.
 - [x] Strategy
 - [x] Observer
 - [x] Decorator
-- [ ] Factory
-- [ ] Singleton
+- [x] Factory
+- [x] Singleton
 - [ ] Command
 - [ ] Adapter and Facade
 - [ ] Template Method
