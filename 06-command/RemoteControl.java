@@ -27,10 +27,10 @@ public class RemoteControl {
     }
 
     public String toString() {
-        StringBuffer stringBuff = newStringBuffer();
+        StringBuffer stringBuff = new StringBuffer();
         stringBuff.append("\n------ Remote Control ------\n");
         for (int i = 0; i < onCommands.length; i++) {
-            stringBuff.append("[slot " + i + "] " + onCommands[i].getClass().getName() + "    " + offcommands[i].getClass().getName() + "\n");
+            stringBuff.append("[slot " + i + "] " + onCommands[i].getClass().getName() + "    " + offCommands[i].getClass().getName() + "\n");
         }
         return stringBuff.toString();
     }
