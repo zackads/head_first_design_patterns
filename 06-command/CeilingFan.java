@@ -31,7 +31,7 @@ public class CeilingFan {
         System.out.println(this.location + " ceiling fan is off");
     }
 
-    public void getSpeed() {
+    public int getSpeed() {
         return speed;
     }
 }
