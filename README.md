@@ -15,8 +15,8 @@ Each item below represents a chapter in HFDP. Some chapters cover two patterns.
 - [x] Decorator
 - [x] Factory
 - [x] Singleton
-- [ ] Command
-- [ ] Adapter and Facade
+- [x] Command
+- [x] Adapter and Facade
 - [ ] Template Method
 - [ ] Iterator and Composite
 - [ ] State
